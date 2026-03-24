@@ -1,0 +1,6 @@
+let root=ReactDOM.createRoot(document.getElementById('root'))
+root.render(<App/>)
+//root.render(<div><span>GM</span><span>GA</span><span>GN</span></div>)
+//root.render(<h1>Good Evening</h1><h2>Good Night</h2>)
+//root.render(<h1>Good Evening</h1>)
+//root.render("Good Evening")
