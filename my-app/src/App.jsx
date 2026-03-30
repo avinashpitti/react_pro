@@ -20,6 +20,8 @@
 import React, { Component } from 'react'
 import Header from './components/header'
 import Footer from './components/footer'
+import Avi from './components/avi';
+import Harsha from './components/harsha';
 
 class App extends Component {
   render() {
@@ -29,6 +31,8 @@ class App extends Component {
         <p>Information about app component</p>
         <Header />
         <Footer />
+        <Avi />
+        <Harsha />
       </div>
     )
   }
