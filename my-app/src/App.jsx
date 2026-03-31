@@ -22,6 +22,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Avi from './components/avi';
 import Harsha from './components/harsha';
+import Ankesh from './components/ankesh';
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
         <Footer />
         <Avi />
         <Harsha />
+        <Ankesh />
       </div>
     )
   }
