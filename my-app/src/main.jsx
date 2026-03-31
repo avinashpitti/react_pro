@@ -1,23 +1,15 @@
-// import React from 'react'
-// import ReactDOM from 'react-dom/client'
-
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import 'bootstrap/dist/css/bootstrap.css'
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <h1>Good Evening</h1>
 // )
 
 
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import 'bootstrap/dist/css/bootstrap.css'
-// import Header from './header'
-// import Footer from './footer'
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    {/* <Header/> */}
-    {/* <Footer/> */}
   </React.StrictMode>
 ) 
